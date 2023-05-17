@@ -1,0 +1,108 @@
+/* .details-carousel{
+    height: 500px !important;
+    max-width: 300px;
+} */
+
+.section-img{
+    /* background-color: red; */
+}
+
+.rating-body{
+    background-color: rgb(220, 235, 248);
+}
+
+.p-text{
+    align-self: left !important;
+    color: rgb(103, 102, 102);
+    font-weight: 600;
+}
+
+.h2-details{
+    font-weight: 800;
+    font-size: 50px;
+    color: #250145;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-text{
+    text-align: center;
+    line-height: 1;
+}
+
+.div-aline{
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
+    margin-top: 1rem;
+    /* background-color: aliceblue; */
+    height: 350px;
+
+}
+
+.aline-body{
+    /* background-color: rgb(211, 209, 209); */
+}
+
+.form-rating{
+    /* background-color: red; */
+    height: 200px;
+}
+
+.col-login {
+    padding-top: 30px;
+    display: block;
+    max-height: 80px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+.btn-login-div {
+    text-align: right;
+}
+
+.btn-search {
+    background-color: #f3c300;
+    font-weight: bold;
+}
+
+.btn-search:hover {
+    background-color: #f9f505;
+}
+.row-form{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-car{
+    max-height: 300px;
+    max-width: 500px;
+}
+
+
+.star-rating {
+    display: block;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+  
+  .star-rating input[type="radio"] {
+    display: none;
+  }
+  
+  .star-rating label {
+    font-size: 40px;
+    color: #939292;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .star-rating label:before {
+    content: '\2605';
+    padding: 5px;
+  }
+  
+  .star-rating input[type="radio"]:checked ~ label {
+    color: #ed5c03;
+  }
